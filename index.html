@@ -3,49 +3,541 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="res.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" type="image/x-icon" href="image/logo5.jpg">
+    <title>Website Nhà Hàng</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">
-            <h1 class="header-h1">DU LỊCH VIỆT NAM</h1>
-        </div>
-
-        <div class="body">
-             <div class="body-menu">
-                <ul class="body-menu-list">
-                    <li class="body-menu-item1">
-                      <a href="https://viblo.asia/p/css-grid-layout1-huong-dan-co-ban-ve-css-grid-layout-djeZ18kYKWz">Trang chủ</a>
-                    </li>
-                    <li class="body-menu-item2">
-                      <a href="https://baomoi.com/">Khám phá</a>
-                    </li>
-                    <li class="body-menu-item3">
-                      <a href="https://baotintuc.vn/long-form/emagazine/dong-luc-dua-dat-nuoc-phat-trien-nhanh-ben-vung-20221229150949654.htm">Nghỉ dưỡng</a> 
-                    </li>
-                    <li class="body-menu-item4">
-                      <a href="https://vi.wikipedia.org/wiki/V%C4%83n_h%C3%B3a_Vi%E1%BB%87t_Nam">Văn hóa</a>
-                    </li>
-                    <li class="body-menu-item5">
-                      <a href="https://www.booking.com/city/vn/nha-trang.vi.html?aid=816126;label=nha-trang-A8jLwsImJM*JOn7coouRZwS632969677853:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-15806329873:lp1028580:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YfqnDqqG8nt11DrkyP1OxFA;ws=&gclid=CjwKCAjwu4WoBhBkEiwAojNdXoqLs77ZrarUWqgcOeI0yx2Xg29Xa412j893tzXIFFkA33pi6VV0ghoCOGIQAvD_BwE">du lịch</a>
-                    </li>
-                    <li class="body-menu-item6">
-                      <a href="https://luatminhkhue.vn/sinh-thai-hoc-la-gi.aspx">sinh thái</a>
-                    </li>
-                </ul>
-             </div>
-             <div class="body-main">
-                <iframe src="./index.html" frameborder="0" width="100%" height="100%">  </iframe>
-             </div>
-                    <div class="body-picture-title-2">
-                      <iframe src="./index.html" frameborder="0" width="100%" height="100%">  </iframe>
-                    </div>
-                
+    <section class="top">
+        <div class="container">
+            <div class="row justify-content">
+                <div class="logo"><img src="image/logo1.png" alt=""></div>
+                <div class="menu-bar">
+                    <span></span>
                 </div>
-             </div>
+                <div class="menu-items">
+                    <ul>
+                       <li class="menu-item"><a href="">Trang Chủ</a></li>  
+                       <li class="menu-item"><a href="truong/truong.html">Thanh Toán</a></li>  
+                       <li class="menu-item"><a href="">Thực Đơn</a></li>  
+                       <li class="menu-item"><a href="">Phản Hồi</a></li>  
+                       <li class="menu-item"><a href="">Nhân Sự</a></li>  
+                       <li class="menu-item"><a href="">Liên Hệ</a></li>  
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-    <footer class="gioithieu">HOANG TRONG GIAP <br> IT20</footer>
+    </section>
+    <section class="big-image">
+        <div class="big-image-content" data-aos="fade-up" data-aos-duration="1600">
+            <h2>Nhà Hàng Thái Market</h2>
+            <p>Đẳng cấp lên ngôi, vị ngọt đôi môi, niềm vui ngóng chờ giây phút mộng mơ</p>
+            <a href="muoi/muoi.html"><button class="big-image-content-btn btn">ĐẶT BÀN NGAY</button></a>
+        </div>
+    </section>
+    <section class="about section-pading">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Câu chuyện">Về chúng tôi</h2>
+                </div>
+            </div>
+      <div class="row">
+            <div class="about-item" data-aos="fade-right" data-aos-duration="1600">
+                <h2>CHÀO MỪNG BẠN ĐẾN VỚI THAI MARKET</h2>
+                <p>Thai Market là chuỗi nhà hàng sử  dụng 100% gia vị an toàn,
+                    nhập khẩu từ Chiang Mai, Thái Lan. 
+                    Việc này không chỉ giúp các món ăn giữ đúng hương vị truyền thống của Thái Lan
+                    mà còn mang đến những món ăn đảm bảo chất lượng dành cho các thực khách.
+                    Nhà hàng luôn cố gắng sử dụng các nguyên liệu, 
+                    sản vật tự nhiên của chính địa phương với mong muốn mang lại cho quý vị 
+                    thực khách những món ăn tươi ngon nhất. Thai Market thiết lập quan hệ
+                    mật thiết với các gia đình ngư dân ở Đà Nẵng và Hội An,
+                    những nhà trồng rau ở Trà Quế và nhiều tiểu thương 
+                    uy tín trong vùng để luôn có nguồn nguyên liệu dồi dào, tươi sống nhất.
+                    Các sản phẩm luôn được kiểm định khắt khe, đặc biệt khu vực bếp, 
+                    để nhà hàng luôn giữ được quy chuẩn vệ sinh an toàn thực phẩm.
+                </p>
+                <a href="https://herworldvn.com/phong-cach-song/du-lich-am-thuc/cau-chuyen-truyen-cam-hung-cua-thai-market-tai-da-nang-7387403"><button class="btn">Xem Thêm</button></a>
+            </div>
+            <div class="about-item" data-aos="fade-left" data-aos-duration="1600">
+                <div class="about-item-img">
+                    <span>Hơn 10 năm kinh nghiệm</span>
+                    <img src="image/about2.jpg" alt="">
+                </div>
+            </div>
+      </div>
+        </div>
+    </section>
+    <section class="menu section-pading">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Đặt ngay">Thực đơn</h2>
+                </div>
+            </div>
+            <!---------TẠO MENU CHO NHÀ HÀNG----------> 
+            <div class="row">
+                <div class="menu-title">
+                    <button class="menu-button active" data-title="#trua">Trưa</button>
+                    <button class="menu-button" data-title="#chieu-toi">Chiều Tối</button>
+                    <button class="menu-button" data-title="#do-uong">Đồ uống</button>
+                    <button class="menu-button" data-title="#diem-tam">Điểm tâm</button>
+                </div>
+            </div>
+            <div class="row justify-content" data-aos="fade-right" data-aos-duration="1600">
+                <div class="menu-item-content active" id="trua">
+                    <div class="food-items">
+                        <div class="food-item">
+                                    <img src="/image/trua1.jpg" alt="">
+                                    <p>Cơm sườn bì chả</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>200.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/trua2.jpg" alt="">
+                                    <p>Cơm gà</p>
+                                </div>
+                                <div class="food-price">
+                                     <p>79.000 VND</p>
+                               </div>
+                        </div>
+                        <div class="food-items">
+                             <div class="food-item">
+                                <img src="/image/trua3.jpg" alt="">
+                                <p>Combo cơm quê</p>
+                             </div>
+                             <div class="food-price">
+                                 <p>299.000 VND</p>
+                            </div>
+                        </div>
+                        <div class="food-items">
+                            <div class="food-item">
+                                <img src="/image/trua4.jpg" alt="">
+                                <p>Mẹt ăn thập cẩm</p>
+                            </div>
+                            <div class="food-price">
+                                 <p>699.000 VND</p>
+                           </div>
+                       </div>
+                        <div class="food-items">
+                            <div class="food-item">
+                                <img src="/image/trua5.jpg" alt="">
+                                <p>Phở bát đá</p>
+                            </div>
+                            <div class="food-price">
+                                <p>299.000 VND</p>
+                            </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/trua6.jpeg" alt="">
+                                    <p>Bún đậu mắm tôm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>159.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/trua7.jpg" alt="">
+                                    <p>Cơm rang dưa bò</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>89.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/trua8.jpg" alt="">
+                                    <p>Bánh đa cua</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>499.000 VND</p>
+                                </div>
+                        </div>
+                    
+                </div>
+                <div class="menu-item-content" id="chieu-toi">
+                    <div class="food-items">
+                        <div class="food-item">
+                                    <img src="/image/menu1.jpg" alt="">
+                                    <p>Beef Steak</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>599.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/menu2.jpg" alt="">
+                                    <p>Sashimi thập cẩm</p>
+                                </div>
+                                <div class="food-price">
+                                     <p>999.000 VND</p>
+                               </div>
+                        </div>
+                        <div class="food-items">
+                             <div class="food-item">
+                                <img src="/image/menu3.jpg" alt="">
+                                <p>Lẩu bò cay</p>
+                             </div>
+                             <div class="food-price">
+                                 <p>899.000 VND</p>
+                            </div>
+                        </div>
+                        <div class="food-items">
+                            <div class="food-item">
+                                <img src="/image/menu4.jpg" alt="">
+                                <p>Soup hải sản</p>
+                            </div>
+                            <div class="food-price">
+                                 <p>299.000 VND</p>
+                           </div>
+                       </div>
+                        <div class="food-items">
+                            <div class="food-item">
+                                <img src="/image/menu5.jpg" alt="">
+                                <p>Miến hải sản</p>
+                            </div>
+                            <div class="food-price">
+                                <p>199.000 VND</p>
+                            </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/menu6.jpg" alt="">
+                                    <p>Cá nướng Pa Pỉnh Tộp</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>499.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/menu7.jpg" alt="">
+                                    <p>Tôm sốt Mayonnaise</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>399.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/menu9.jpg" alt="">
+                                    <p>Cua gạch sốt me</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>999.000 VND</p>
+                                </div>
+                       </div>
+                </div>
+                <div class="menu-item-content" id="do-uong">
+                    <div class="food-items">
+                        <div class="food-item">
+                                    <img src="/image/douong.jpg" alt="">
+                                    <p>Nước ép hoa quả</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>99.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/douong2.jpg" alt="">
+                                    <p>Trà sữa TTĐĐ</p>
+                                </div>
+                                <div class="food-price">
+                                     <p>50.000 VND</p>
+                               </div>
+                        </div>
+                        <div class="food-items">
+                             <div class="food-item">
+                                <img src="/image/douong4.jpeg" alt="">
+                                <p>Cocktail</p>
+                             </div>
+                             <div class="food-price">
+                                 <p>199.000 VND</p>
+                            </div>
+                        </div>
+                        <div class="food-items">
+                            <div class="food-item">
+                                <img src="/image/douong5.png" alt="">
+                                <p>Rượu Soju</p>
+                            </div>
+                            <div class="food-price">
+                                 <p>50.000 VND</p>
+                           </div>
+                       </div>
+                        <div class="food-items">
+                            <div class="food-item">
+                                <img src="/image/douong6.jpg" alt="">
+                                <p>Chivas 18 Gold Signature</p>
+                            </div>
+                            <div class="food-price">
+                                <p>1 củ rưỡi</p>
+                            </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/douon7.webp" alt="">
+                                    <p>Nước ngọt các loại</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>50.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/douong7.jpg" alt="">
+                                    <p>Rượu vang</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>1 củ</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/douong8.jpg" alt="">
+                                    <p>Nước lọc Fillico</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>5 củ</p>
+                                </div>
+                        </div>
+                    
+                </div>
+                <div class="menu-item-content" id="diem-tam">
+                    <div class="food-items">
+                        <div class="food-item">
+                                    <img src="/image/diemtam1.webp" alt="">
+                                    <p>Bánh bao</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>59.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/diemtam2.jpg" alt="">
+                                    <p>Bún bò</p>
+                                </div>
+                                <div class="food-price">
+                                     <p>50.000 VND</p>
+                               </div>
+                        </div>
+                        <div class="food-items">
+                             <div class="food-item">
+                                <img src="/image/diemtam3.jpg" alt="">
+                                <p>Bánh ngọt</p>
+                             </div>
+                             <div class="food-price">
+                                 <p>75.000 VND</p>
+                            </div>
+                        </div>
+                        <div class="food-items">
+                            <div class="food-item">
+                                <img src="/image/diemtam4.jpeg" alt="">
+                                <p>Dim Sum</p>
+                            </div>
+                            <div class="food-price">
+                                 <p>299.000 VND</p>
+                           </div>
+                       </div>
+                        <div class="food-items">
+                            <div class="food-item">
+                                <img src="/image/diemtam5.jpg" alt="">
+                                <p>Chuối đốt rượu</p>
+                            </div>
+                            <div class="food-price">
+                                <p>199.000 VND</p>
+                            </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/diemtam6.jpg" alt="">
+                                    <p>Kem cháy</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>199.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/diemtam7.jpeg" alt="">
+                                    <p>Soup bí đỏ</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>159.000 VND</p>
+                                </div>
+                        </div>
+                        <div class="food-items">
+                                <div class="food-item">
+                                    <img src="/image/diemtam8.jpg" alt="">
+                                    <p>Phá lấu</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>150.000 VND</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="phan-hoi section-pading">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Ý kiến">Phản hồi</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="phan-hoi-items">
+                    <div class="phan-hoi-item">
+                        <div class="phan-hoi-item-content">
+                          <div class="phan-hoi-item-img-content-text">
+                              <h2>Nguyễn Đức Cường</h2>
+                              <span>Ca sĩ</span>
+                          </div>
+                          <div class="phan-hoi-item-img-content-img">
+                              <img src="/image/phanhoi3.jpg" alt="">
+                           </div>
+                        </div>
+                          <p>
+                            "Mới đây, tôi đã có một bữa ăn rất ngon tại nhà hàng Thai Market. 
+                            Đồ ăn ở đây được chế biến từ nguyên liệu tươi ngon, hương vị đậm đà và hợp khẩu vị.
+                            Tôi đặc biệt ấn tượng với món gà không lối thoát,
+                            món ăn này rất thơm ngon và hấp dẫn.
+                            Nhân viên phục vụ ở đây cũng rất nhiệt tình và chu đáo,
+                            họ luôn sẵn sàng hỗ trợ khách hàng.
+                            Tôi chắc chắn sẽ quay lại nhà hàng này lần sau."
+                          </p>
+                        </div>
+                    <div class="phan-hoi-item">
+                        <div class="phan-hoi-item-content">
+                          <div class="phan-hoi-item-img-content-text">
+                              <h2>Mono</h2>
+                              <span>Ca sĩ</span>
+                          </div>
+                          <div class="phan-hoi-item-img-content-img">
+                              <img src="/image/phanhoi5.jpg" alt="">
+                           </div>
+                        </div>
+                          <p>
+                            Đồ ăn ở đây rất ngon, được chế biến từ nguyên liệu tươi ngon và mang đậm hương vị truyền thống.
+                            Nhân viên phục vụ ở đây cũng rất nhiệt tình và chu đáo,
+                            họ luôn sẵn sàng hỗ trợ khách hàng và giúp khách có trải nghiệm ăn uống tốt nhất.
+                            Không gian nhà hàng rất sang trọng và ấm cúng, 
+                            đây là nơi lý tưởng để gặp gỡ bạn bè và gia đình. 
+                            Tôi chắc chắn sẽ quay lại nhà hàng này lần sau."
+                          </p>
+                        </div>
+                    
+                    <div class="phan-hoi-item">
+                        <div class="phan-hoi-item-content">
+                          <div class="phan-hoi-item-img-content-text">
+                              <h2>Mikelodic</h2>
+                              <span>Ca sĩ</span>
+                          </div>
+                           <div class="phan-hoi-item-img-content-img">
+                              <img src="/image/phanhoi6.jpg" alt="">
+                           </div>
+                        </div>
+                                <p>
+                                    Đồ ăn ở đây rất ngon, được chế biến từ nguyên liệu tươi ngon và mang đậm hương vị truyền thống.
+                                    Nhân viên phục vụ ở đây cũng rất nhiệt tình và chu đáo,
+                                    họ luôn sẵn sàng hỗ trợ khách hàng và giúp khách có trải nghiệm ăn uống tốt nhất.
+                                    Tôi chắc chắn sẽ quay lại nhà hàng này lần sau.
+                                    Tôi muốn gửi lời cảm ơn đến đội ngũ đầu bếp và nhân viên của nhà hàng 
+                                    vì đã mang đến cho tôi một trải nghiệm ăn uống tuyệt vời. 
+                                    Tôi sẽ giới thiệu nhà hàng của bạn đến bạn bè và gia đình của tôi.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team section-pading">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Cộng sự">Đầu Bếp</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-items">
+                    <img src="/image/daubep1.jpeg" alt="">
+                    <div class="team-items-text">
+                        <a href="/Son/son.html"><h2>Đinh Hồng Sơn</h2>
+                                    <span>Bếp trưởng</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-items">
+                    <img src="/image/daubep2.jpg" alt="">
+                    <div class="team-items-text">
+                        <a href="Son/son.html">
+                            <h2>Đậu Xuân Mười</h2>
+                            <span>Bếp trưởng</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-items">
+                    <img src="/image/daubep4.jpeg" alt="">
+                    <div class="team-items-text">
+                        <a href="Son/son.html">
+                            <h2>Cao Xuân Trường</h2>
+                            <span>Bếp trưởng</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------tạo phần footer-->
+    <section class="footer">
+        <div class="footer-bg">
+
+        </div>
+        <div class="container">
+            <div class="row justify-content">
+                <div class="footer-item">
+                    <h2>Địa chỉ</h2>
+                    <p>6, An Hòa <br>Hà Đông, Hà Nội</p>
+                </div>
+                <div class="footer-item">
+                    <h2>Giờ mở cửa</h2>
+                    <p>9:30 - 23h<br>All day</p>
+                </div>
+                <div class="footer-item">
+                    <h2>Liên hệ</h2>
+                    <p>Phone: 099999999 <br>Email: abc123@gmail.com</p>
+                    <div class="footer-social">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-copyright">
+                @2023. Toàn bộ thuộc bản quyền Thai market
+            </div>
+        </div>
+    </section>
+    <script>
+        AOS.init();
+      </script>
+    <script src="script.js"></script>
 </body>
 </html>
